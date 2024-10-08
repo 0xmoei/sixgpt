@@ -60,3 +60,5 @@ docker compose up -d
 ```
 docker compose logs -fn 100
 ```
+![image](https://github.com/user-attachments/assets/4d36e28c-c260-4727-8ff7-1c57312bc769)
+
