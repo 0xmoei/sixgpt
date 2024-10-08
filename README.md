@@ -1,6 +1,6 @@
 # sixgpt
 
-* You must have logged into https://sixgpt.xyz with your wallet & email before running the miner
+* You must have logged into https://sixgpt.xyz with your `wallet` & `email` before running the miner
 * Make sure the wallet associated with your vana private key has enough $VANA balance on the desired network (at least 0.1) - [VANA faucet](https://faucet.vana.org/satori)
 
 ## Install sixgpt
