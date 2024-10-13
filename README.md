@@ -41,7 +41,7 @@ cd sixgpt
 ```
 
 **2. Set Variables - Replace `your_private_key`**
-```
+```console
 export VANA_PRIVATE_KEY=your_private_key
 export VANA_NETWORK=satori
 
