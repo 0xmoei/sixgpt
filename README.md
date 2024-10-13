@@ -44,6 +44,9 @@ cd sixgpt
 ```
 export VANA_PRIVATE_KEY=your_private_key
 export VANA_NETWORK=satori
+
+# you can use moksha network too
+export VANA_NETWORK=moksha
 ```
 
 **3. Create docker-compose.yml**
