@@ -33,10 +33,10 @@ docker --version
 
 ## Install sixgpt
 **1. Create folders**
-```
+```console
 mkdir sixgpt
 ```
-```
+```console
 cd sixgpt
 ```
 
@@ -50,11 +50,11 @@ export VANA_NETWORK=moksha
 ```
 
 **3. Create docker-compose.yml**
-```
+```console
 nano docker-compose.yml
 ```
 Enter the following code in it
-```
+```console
 version: '3.8'
 
 services:
@@ -96,19 +96,19 @@ docker compose logs -fn 100
 
 ## Mine on 2 Networks (Moksha + Satori)
 1. Directory
-```
+```console
 cd sixgpt
 ```
 2. Stop
-```
+```console
 docker compose down
 ```
 3. Edit docker compose
-```
+```console
 nano docker-compose.yml
 ```
 4. Replace:
-```
+```console
 version: '3.8'
 
 services:
