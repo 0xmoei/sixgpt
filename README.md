@@ -94,7 +94,20 @@ docker compose logs -fn 100
 ![image](https://github.com/user-attachments/assets/4d36e28c-c260-4727-8ff7-1c57312bc769)
 
 
-## Dual
+## Mine on 2 Networks (Moksha + Satori)
+1. Directory
+```
+cd sixgpt
+```
+2. Stop
+```
+docker compose down
+```
+3. Edit docker compose
+```
+nano docker-compose.yml
+```
+4. Replace:
 ```
 version: '3.8'
 
@@ -133,3 +146,10 @@ volumes:
   ollama:
 ```
 
+5. Run Miner
+```console
+# Replace your_private_key
+export VANA_PRIVATE_KEY=your_private_key
+
+docker compose up -d
+```
